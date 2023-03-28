@@ -11,6 +11,7 @@ ARG SONAR_VERSION=4.7.0.2747
 ARG SONAR_SCANNER_CLI=sonar-scanner-cli-${SONAR_VERSION}
 ARG SONAR_SCANNER=sonar-scanner-${SONAR_VERSION}
 
+
 RUN apt-get update \
  && apt-get install -y curl \
  && apt-get clean \
